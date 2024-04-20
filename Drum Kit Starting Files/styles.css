@@ -16,32 +16,39 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
-
+.w img{
+  height:100px;
+  width:100px;
 }
 
-.a {
-
+.a img{
+  height:100px;
+  width:100px;
 }
 
-.s {
-
+.s img{
+  height:100px;
+  width:100px;
 }
 
-.d {
-
+.d img{
+  height:100px;
+  width:100px;
 }
 
-.j {
-
+.j img{
+  height:100px;
+  width:100px;
 }
 
-.k {
-
+.k img{
+  height:100px;
+  width:100px;
 }
 
-.l {
-
+.l img{
+  height:100px;
+  width:100px;
 }
 
 .set {
@@ -73,6 +80,8 @@ footer {
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
+  position: relative; /* Position the button relative to its container */
+  overflow: hidden; /* Prevents text from overflowing */
   width: 150px;
   height: 150px;
   text-align: center;
